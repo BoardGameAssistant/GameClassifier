@@ -25,5 +25,5 @@ def classifyGameImage(image_path):
           return prediction
 
 
-model_path = 'SPECIFY PATH TO .pkl MODEL'
+model_path = 'gameClassifier/gameClassifier_v1.pkl'
 game_model = load_learner(model_path, cpu=True)
